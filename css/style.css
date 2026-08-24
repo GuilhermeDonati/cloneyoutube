@@ -52,16 +52,14 @@ header{
 }
 
 form{
+    display: flex;
     max-width: 515px;
     width:100%;
-    position:relative;
-    padding-right: 62px;
 }
 
 .campoPesquisa{
     max-height:50px;
-    max-width:450px;
-    width:100%;
+    flex:1;
     border-radius: 25px 0 0 25px;
     padding:15px 10px;
     border:1px solid black;
@@ -69,9 +67,7 @@ form{
 }
 
 .botaoPesquisa{
-    position: absolute;
     border:1px solid black;
-    border-left:none;
     width:60px;
     height:50px;
     border-radius: 0 25px 25px 0;
@@ -154,6 +150,3 @@ form{
 
 /*PSEUDO CLASSE*/
 
-.campoPesquisa:focus{
-outline:none;
-}
