@@ -9,9 +9,9 @@ header{
     position:sticky;
     top:0;
     justify-content: space-between;
-    margin: 8px 0 8px 0px;
     padding:15px;
-   background-color: rgba(0, 0, 0, 0.95);
+    opacity: 0.92;
+   background-color: rgb(0, 0, 0);
    gap:10px;
 }
 
@@ -68,6 +68,7 @@ form{
     border:1px solid black;
     border-right:none;
     font-size:1rem;
+    cursor:text;
 }
 
 .botaoPesquisa{
@@ -75,6 +76,7 @@ form{
     width:60px;
     height:50px;
     border-radius: 0 25px 25px 0;
+    cursor:pointer;
 }
 
 .pesquisaVoz{
@@ -84,6 +86,7 @@ form{
     width:50px;
     border-radius: 25px;
     border:1px solid black;
+    cursor: pointer;
 }
 
 .conjunto-perfil{
@@ -152,15 +155,18 @@ form{
     flex: 1;
     overflow-x:auto;
     white-space: nowrap;
-    
 }
 
 .containerFiltroPesquisa{
     display: flex;
     justify-content: center;
     align-items: center;
-    position:relative;
     width:100%;
+    position:sticky;
+    top:80px;
+    opacity: 0.92;
+    background-color: rgb(0, 0, 0);
+
 }
 
 .containerFiltroPesquisa .botaoEsquerdo{
@@ -333,6 +339,14 @@ form{
 .filtroPesquisa:-webkit-scrollbar-track,
 .filtroPesquisa:-webkit-scrollbar-thumb {
   background-color: transparent; 
+}
+
+.criarPost:hover{
+     background-color: rgb(206, 209, 209)
+}
+
+.pesquisaVoz:hover{
+    background-color: rgba(199, 196, 196, 0.644);
 }
 
 .botaoDireito, .botaoEsquerdo{
