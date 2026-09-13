@@ -10,7 +10,7 @@
 
 ## introducao  
 
-Estou desenvolvendo este projeto unicamente para relembra/treinar o desenvolvimento front-end, meu objetivo e conseguir aprender tudo o que for necessario antes de implementar no meu projeto, tudo que eu escrivi foi entendido a fundo, pois acredito que para ser bom desenvolvedor full-stack devo comecar da base. 
+Estou desenvolvendo este projeto unicamente para relembra/treinar o desenvolvimento front-end, meu objetivo e conseguir aprender tudo o que for necessario antes de implementar no meu projeto, tudo que eu escrivi foi entendido a fundo, pois acredito que para ser bom desenvolvedor full-stack devo comecar da base. Não deixei o site 100% igual pois esse nao e o objetivo, fiz o **MVP** que seria mostrar que consigo criar, cores e tamanhos perfeitos apenas atrasaria meu progresso!!!
 
 ## conceitos de css apreendidos 
 
